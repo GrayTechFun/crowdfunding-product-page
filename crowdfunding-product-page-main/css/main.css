@@ -41,7 +41,7 @@ nav {
   margin-top: -8em;
   border-radius: 1em;
   overflow: visible;
-  z-index: 1;
+  z-index: 2;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -123,7 +123,7 @@ nav {
 
 .third-card {
   width: 40em;
-  height: 40em;
+  height: 190vh;
   border-radius: 1em;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 3em;
@@ -255,4 +255,167 @@ span {
 
 .got {
   cursor: pointer;
+}
+
+.back-project {
+  display: none;
+  background-color: bisque;
+  width: 30em;
+  padding-left: 1em;
+}
+
+.back-project p {
+  color: gray;
+  line-height: 2rem;
+}
+
+.close {
+  margin-left: 26em;
+  margin-bottom: -2em;
+}
+
+.back-title {
+  margin-bottom: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.circle {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.green {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background-color: #33a79e;
+}
+
+.inner-card {
+  border-color: none;
+  border: 1px solid gray;
+  border-radius: 1em;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+}
+
+.topp {
+  display: flex;
+  gap: 1.5em;
+  padding: 1em;
+}
+
+.paragraph {
+  margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 750px) {
+  .container {
+    width: auto;
+  }
+
+  .heading {
+    background-size: auto;
+    background-position-x: 35em;
+  }
+  .first-card {
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .second-card {
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 4em;
+    justify-content: space-between;
+    gap: 25em;
+  }
+  .third-card {
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .semi-card {
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .semi .semi-card .top {
+    display: flex;
+    gap: 45em;
+  }
+
+  .semi .semi-card2 .top {
+    display: flex;
+    gap: 50em;
+  }
+  .semi .semi-card1 .top {
+    display: flex;
+    gap: 54em;
+  }
+
+  .semi .semi-card .para {
+    margin-right: 5em;
+    line-height: 2.5rem;
+  }
+
+  .semi .semi-card .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left {
+    margin-top: 2em;
+  }
+
+  .days p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .menu {
+    margin-left: 35em;
+  }
+
+  nav {
+    display: block;
+    margin-left: 12em;
+  }
+
+  .heading .menu .options a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+  }
+
+  .two-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+  }
+
+  .icon-bookmark {
+    width: 6em;
+    height: 6em;
+    margin-top: 2em;
+  }
+}
+
+.select:hover {
+  cursor: pointer;
+  background-color: #176862;
+}
+
+.back:hover {
+  cursor: pointer;
+  background-color: #176862;
 }
